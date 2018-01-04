@@ -11,15 +11,16 @@ main{
     top:0;
     left:0;
     z-index: 0;
+    background: white;
 }
 div.menu{
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     left: 15%;
     width: 85%;
     height: 15%;
-    background: white;
+    background: black;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    
+
 }
