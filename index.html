@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 <link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<script src="http://unpkg.com/vue"></script>
 </head>
 <body>
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
@@ -38,9 +40,7 @@
 	<div class="mdl-layout-icon"></div>
 	<div class="mdl-layout__header-row">
 		<nav class="mdl-navigation">
-			<a class="mdl-navigation__link" href="#fixed-tab-1">Page 1</a>
-			<a class="mdl-navigation__link" href="#fixed-tab-2">Page 2</a>
-			<a class="mdl-navigation__link" href="#fixed-tab-3">Page 3</a>
+			<a class="mdl-navigation__link" v-for="item in menu"  v-bind:href="item.href"><i v-bind:class="item.menu"></i></a>
 		</nav>
 	</div>
 </header>
