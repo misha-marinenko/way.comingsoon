@@ -30,3 +30,16 @@ background-image: linear-gradient(45deg, #312a6c, #852d91);
 
 
 }
+.demo-card-wide.mdl-card {
+  width: 720px;
+  margin-top:100px ;
+  margin-left: 300px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
