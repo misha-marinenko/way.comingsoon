@@ -1,7 +1,7 @@
 var app = new Vue({
     el: "main",
     data: {
-        countdown: "TEST"
+        countdown: ""
     }
 });
 setInterval(
